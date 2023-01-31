@@ -13,3 +13,7 @@ env/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+
+# Perso
+tuto-django.txt
