@@ -1,0 +1,84 @@
+#Creation de l'environnement virtuel
+```bash
+python -m venv .venv
+```
+#Activation de l'environnement virtuel
+```bash
+source .venv/Scripts/activate
+```
+#Controle d'activation de l'envoronnement
+```bash
+which python
+```
+#Upgrade PIP
+```bash
+python -m pip install --upgrade pip
+```
+#Install Django
+```bash
+pip install django
+```
+#Creation de projet django
+```bash
+django-admin startproject config
+```
+#Creation d'application customer
+```bash
+python manage.py startapp customer
+```
+
+
+#############################################
+################   GIT   ####################
+#############################################
+
+#Initialiser le projet (racine du projet) creation du répo local
+```bash
+git init
+```
+
+# lister les fichier non commités non ajouter dans le dépot
+```bash
+git status
+```
+
+# ajouter des fichier ou dossier
+```bash
+git add ....
+```
+
+#
+```bash
+git commit -m "message pour expliquer les modifs ou titre du commite"
+```
+
+#fichier d'historique du GIT
+```bash
+git log
+```
+
+#suivre tout les fichiers ( prsie en compte par git)
+```bash
+git add .
+```
+
+#suivre tout les fichiers ( prsie en compte par git)
+```bash
+git add .
+```
+
+#Retour a une version précedente: ( récuperer le numéro du commite ex :be84621sd9sdsd6v6s5s4df8sd4sdf4s9d)
+```bash
+git checkout be84621sd9sdsd6v6s5s4df8sd4sdf4s9d
+```
+#pour revenire sur la dernier version
+```bash
+git checkout master
+```
+######### Creation du repo dans github.com
+######### connexion du repo local avec le repo github avec les commande proposées.		
+######### git branch -M main
+######### git remote add origin https://github.com/alpharender/Tuto-dcf-WePynaire.git
+######### git push -u origin main
+
+
